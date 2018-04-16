@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/adapter_hot_rl_dian">
+    <ImageView
+        android:src="@drawable/touxiang"
+        android:id="@+id/adapter_hot_iv_show"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/adapter_hot_tv_show"
+        android:textSize="16sp"
+        android:textColor="@color/blueFont"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="2165484864864644" />
+
+</RelativeLayout>

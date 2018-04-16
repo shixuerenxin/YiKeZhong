@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/favorite"
+            android:icon="@drawable/raw_1499933216"
+            android:checkable="true"
+            android:title="我的关注"/>
+
+    </group>
+    <item
+        android:id="@+id/wallet"
+        android:icon="@drawable/raw_1499947358"
+
+        android:title="我的收藏"/>
+    <item
+        android:id="@+id/photo"
+        android:icon="@drawable/raw_1500034665"
+        android:title="搜索好友"/>
+    <item
+        android:id="@+id/dress"
+        android:icon="@drawable/raw_1499947389"
+        android:title="消息通知"/>
+</menu>
